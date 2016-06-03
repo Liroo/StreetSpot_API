@@ -1,0 +1,31 @@
+{
+  "name": "street_spot",
+  "version": "1.0.1",
+  "description": "-- ### Api Server part -- #### Proem",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liroo/api_streetSpot.git"
+  },
+  "author": "Pierre Monge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liroo/api_streetSpot/issues"
+  },
+  "homepage": "https://github.com/Liroo/api_streetSpot#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.6",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-routes-versioning": "^0.3.0",
+    "jwt-simple": "^0.5.0",
+    "mongoose": "^4.4.19",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.0.0",
+    "validator": "^5.2.0"
+  }
+}

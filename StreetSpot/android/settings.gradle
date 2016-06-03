@@ -1,0 +1,6 @@
+rootProject.name = 'StreetSpot'
+
+include ':react-native-text-input-layout', ':react-native-android-snackbar', ':app'
+
+project(':react-native-android-snackbar').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-snackbar/android')
+project(':react-native-text-input-layout').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-text-input-layout')
