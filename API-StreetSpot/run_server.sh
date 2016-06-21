@@ -1,5 +1,5 @@
 # parce que j'ai la flemme de ré-écrire la cmd tout le temps
-NODEMON_BINARY="nodemon"
+NODEMON_BINARY="nodemon" #nodemon on dev, `forever start server.js` on production
 NPM="npm"
 
 ipLocal=$(ip addr | grep -Po '(?!(inet 127.\d.\d.1))(inet \K(\d{1,3}\.){3}\d{1,3})')
